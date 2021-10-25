@@ -32,9 +32,13 @@ Below are the steps:-
 **Loading the dataset** : Load the data and import the libraries.
 
 **Data Preprocessing** : - Reading the images,labels stored in 2 folders(Parasitized,Uninfected).
+
                          - Plotting the Uninfected and Parasitized images with their respective labels.
+                         
                          - Normalizing the image data.
+                         
                          - Train,test split
+                         
                          - Data Augmentation : Augment the train and validation data using ImageDataGenerator
 
 **Creating and Training the Model**: Create a cnn model in KERAS
