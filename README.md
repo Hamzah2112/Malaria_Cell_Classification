@@ -15,7 +15,7 @@ In a non-immune individual, symptoms usually appear 10–15 days after the infec
 
 Our Model performs fairly well with an accuracy of 95% and an F1 Score of 95% and Recall Score of 92%. This provides a handy tool to utilize the power of Machine Learning and Artificial Intelligence in Binary Classification Problems where time and accuracy is the paramount objective of classification.
 
-## **Dataset and Description
+## **Dataset and Description**
 
 This is an image classification problem on Kaggle Datasets.The dataset contains 2 folders - Infected - Uninfected and has been originally taken from a government data website https://ceb.nlm.nih.gov/repositories/malaria-datasets/ .
 
@@ -27,7 +27,7 @@ Dataset: https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria
 
 System will read the image uploaded by the user, augment it and will use the saved custom model to detect whether the disease is present or not in the patient and thus display the result in a user-friendly language.
 
-Below are the steps�
+Below are the steps:-
 
 **Loading the dataset** : Load the data and import the libraries.
 
@@ -38,7 +38,7 @@ Below are the steps�
                          - Data Augmentation : Augment the train and validation data using ImageDataGenerator
 
 **Creating and Training the Model**: Create a cnn model in KERAS
-.
+
 **Evaluation** : Display the plots from the training history.Checked the performance using confusion matrix and classification report
 
 **Submission**: Run predictions with model.predict, and create confusion matrix.
