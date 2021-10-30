@@ -48,5 +48,5 @@ Below are the steps:-
 
 **Web app**: Built a web app using streamlit 
 
-**Deploying Web app**: Deployed the web app created using Heroku
+
 
